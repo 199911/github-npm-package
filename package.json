@@ -1,0 +1,24 @@
+{
+  "name": "github-npm-package",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/199911/github-npm-package.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/199911/github-npm-package/issues"
+  },
+  "homepage": "https://github.com/199911/github-npm-package#readme",
+  "dependencies": {
+    "greet-public-https" : "https://github.com/199911/npm-package-public.git",
+    "greet-private-https" : "https://github.com/199911/npm-package-private.git"
+  }
+}
